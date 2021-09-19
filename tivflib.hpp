@@ -3,7 +3,6 @@
 
 // This is the main file of tivflib
 #include <string>
-#include <ncurses.h>
 #include <stdlib.h>
 #include <iostream>
 
