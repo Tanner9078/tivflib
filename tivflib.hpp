@@ -3,14 +3,13 @@
 
 // This is the main file of tivflib
 #include <string>
-#include <stdlib.h>
 #include <iostream>
 
 
 class tivf_img {    // Main image class
     public:
         void set_data(std::string arg) {data=arg;}
-        void view_data(char* arg, int x, int y)
+        void view_data(char* arg)
         {
             if(arg=="full") {
                 int len=data.length();
