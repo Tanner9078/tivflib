@@ -54,6 +54,7 @@ class tivf_img {    // Main image class
         }
     }
             }
+            if(arg=="raw") {std::cout << data;}
         }
     private:
         std::string data;
